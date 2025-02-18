@@ -4,16 +4,17 @@ import { pluginReact } from "@rsbuild/plugin-react";
 export default defineConfig({
     plugins: [pluginReact()],
     html: {
-        title({ entryName }) {
-            const titles = {
-                App: "Foo Page",
-            };
-            return titles[entryName];
-        },
+        title: "Portofolio | Ignatius Odi",
     },
     resolve: {
         alias: {
             "@assets": "./src/assets",
+            "@components": "./src/components",
+        },
+    },
+    output: {
+        distPath: {
+            root: "build",
         },
     },
 });

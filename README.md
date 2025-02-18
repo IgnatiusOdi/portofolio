@@ -1,4 +1,4 @@
-# Rsbuild project
+# React with Rsbuild + TailwindCSS v4
 
 ## Setup
 

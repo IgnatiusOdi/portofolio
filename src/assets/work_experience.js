@@ -5,9 +5,11 @@ export const work_experience = [
         location: "Institut Sains dan Teknologi Terpadu Surabaya",
         city: "Surabaya, Indonesia",
         jobs: [
-            "Assist senior laboratory assistants in developing practical quizzes for pre-lab assessments",
-            "Provide tutoring to students before lab assessments on the assessment topics",
-            "Assist the senior laboratory assistants in grading students assessments tasks",
+            "Teach students about Database Management (MySQL), Internet Application Framework (Laravel)",
+            "Assist senior laboratory assistants in developing practical quizzes for pre-lab assessments for 35 students across 2 labs",
+            "Provide tutoring to students before lab assessments on the relevant topics",
+            "Provide support to students with technical and skill-related issues",
+            "Assist the senior laboratory assistants in grading and providing constructive feedback on students' assessments tasks",
         ],
     },
     {
@@ -16,12 +18,13 @@ export const work_experience = [
         location: "Institut Sains dan Teknologi Terpadu Surabaya",
         city: "Surabaya, Indonesia",
         jobs: [
+            "Teach students about Object Oriented Programming (Java) 19 students, Web Programming Framework (PHP, Laravel) 9 students, Visual Programming (React Native) 16 students, Web Programming (JS, PHP) 8 students, Database (MySQL) 24 students, Multiplatform Programming (Flutter) 7 students",
             "Maintain the laboratory's network, software, and hardware used for lab assessments, working collaboratively as a team",
             "Prepare book material for lab assessments before the start of the semester",
-            "Provide tutoring to students before lab assessments on the assessment topics",
-            "Design lab assessments to evaluate students practical skill in lab exams",
-            "Grade students assessment tasks",
+            "Provide tutoring to students before lab assessments on the relevant topics",
             "Provide guidance to students who have difficulty solving assessments problems",
+            "Design lab assessments to evaluate students practical skill in lab exams",
+            "Grade and give constructive feedback on students' assessment tasks",
         ],
     },
     {
@@ -31,6 +34,9 @@ export const work_experience = [
         city: "Malang, Indonesia",
         jobs: [
             "Develop a website for scheduling vehicle manufacturing and its components using the Laravel Framework and Microsoft SQL Server",
+            "Conduct code reviews and debugging to ensure that features are functioning properly",
+            "Collaborate with project managers to ensure the application features are implemented correctly",
+            "Utilize Git for version control to enable efficient project management and collaboration",
         ],
     },
     {
@@ -39,9 +45,11 @@ export const work_experience = [
         location: "Institut Sains dan Teknologi Terpadu Surabaya",
         city: "Surabaya, Indonesia",
         jobs: [
-            "Assist senior laboratory assistants in developing practical quizzes for pre-lab assessments",
-            "Provide tutoring to students before lab assessments on the assessment topics",
-            "Assist the senior laboratory assistants in grading students assessments tasks",
+            "Teach students about Desktop Application Programming (C#), Internet Application Framework (Laravel)",
+            "Assist senior laboratory assistants in developing practical quizzes for pre-lab assessments for 52 students across 2 labs",
+            "Provide tutoring to students before lab assessments on the relevant topics",
+            "Provide support to students with technical and skill-related issues",
+            "Assist the senior laboratory assistants in grading and providing constructive feedback on students' assessments tasks",
         ],
     },
 ];

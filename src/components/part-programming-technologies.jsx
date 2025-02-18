@@ -1,4 +1,4 @@
-const PartProgrammingLanguage = (props) => {
+const PartProgrammingTechnologies = (props) => {
     return (
         <div>
             <div className="title border-b-2">{props.title}</div>
@@ -19,4 +19,4 @@ const PartProgrammingLanguage = (props) => {
     );
 };
 
-export default PartProgrammingLanguage;
+export default PartProgrammingTechnologies;
