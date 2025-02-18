@@ -23,6 +23,6 @@ jobs:
             # Install dependencies, Build and Deploy Project
             - name: Install Dependencies, Build and Deploy Project
               run: |
-                  npm install
+                  npm ci
                   npm run build
                   npm run deploy
