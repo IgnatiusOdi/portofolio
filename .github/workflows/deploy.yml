@@ -1,0 +1,27 @@
+name: Deploy Portofolio to Github Pages
+
+on:
+    push:
+        branches: -main
+
+jobs:
+    build-deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            # Checkout the repository
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            # Setup Node.js
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            # Install dependencies, Build and Deploy Project
+            - name: Install Dependencies, Build and Deploy Project
+              run: |
+                  npm install
+                  npm run build
+                  npm run deploy

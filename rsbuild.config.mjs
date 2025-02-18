@@ -12,9 +12,4 @@ export default defineConfig({
             "@components": "./src/components",
         },
     },
-    output: {
-        distPath: {
-            root: "build",
-        },
-    },
 });
