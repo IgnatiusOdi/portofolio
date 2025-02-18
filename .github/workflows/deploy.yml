@@ -20,7 +20,7 @@ jobs:
               with:
                   node-version: 20
 
-            Set Git User Identity
+            # Set Git User Identity
             - name: Set Git User Identity
               run: |
                   git config --global user.email "ignatiusodi@gmail.com"
