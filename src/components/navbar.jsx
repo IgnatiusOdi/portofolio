@@ -42,7 +42,7 @@ const Navbar = () => {
                     className="navbar-item"
                     onClick={() => window.location.replace("#interested")}
                 >
-                    Now Interested In
+                    Interested In
                 </li>
             </ul>
         </nav>

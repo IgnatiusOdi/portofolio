@@ -3,11 +3,10 @@
     "version": "1.0.0",
     "private": true,
     "type": "module",
-    "homepage": "https://ignatiusodi.github.io",
     "scripts": {
         "build": "rsbuild build",
         "check": "biome check --write",
-        "dev": "rsbuild dev --open",
+        "start": "rsbuild dev --open",
         "format": "biome format --write",
         "preview": "rsbuild preview",
         "predeploy": "npm run build",

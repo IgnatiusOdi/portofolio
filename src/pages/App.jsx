@@ -32,11 +32,10 @@ const App = () => {
                     <li>English (Professional working)</li>
                     <li>Chinese (Elementary)</li>
                 </ul>
-                <h1 id="interested">Now Interested In</h1>
+                <h1 id="interested">Interested In</h1>
                 <ul>
                     <li>Supabase</li>
                     <li>GraphQL</li>
-                    <li>CI/CD</li>
                     <li>Unit Testing (Jest)</li>
                     <li>Japanese Language</li>
                     <li>DaVinci Resolve</li>

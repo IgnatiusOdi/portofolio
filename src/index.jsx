@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router";
+import App from "@pages/App";
+import Projects from "@pages/Projects";
 import "./index.css";
-import App from "./pages/App";
-import Projects from "./pages/Projects";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
