@@ -20,11 +20,11 @@ jobs:
               with:
                   node-version: 20
 
-            # Set Git User Identity
-            # - name: Set Git User Identity
-            #   run: |
-            #       git config --local user.email "ignatiusodi@gmail.com"
-            #       git config --local user.name "IgnatiusOdi"
+            Set Git User Identity
+            - name: Set Git User Identity
+              run: |
+                  git config --global user.email "ignatiusodi@gmail.com"
+                  git config --global user.name "IgnatiusOdi"
 
             # Install dependencies, Build and Deploy Project
             - name: Install Dependencies, Build and Deploy Project
