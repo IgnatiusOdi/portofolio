@@ -1,160 +1,220 @@
+import { FaJava, FaMicrosoft, FaNodeJs } from "react-icons/fa";
+import {
+    SiAnsible,
+    SiArduino,
+    SiCanva,
+    SiCplusplus,
+    SiCss3,
+    SiDart,
+    SiEspressif,
+    SiFigma,
+    SiGit,
+    SiGnubash,
+    SiHtml5,
+    SiJavascript,
+    SiJsonwebtokens,
+    SiKotlin,
+    SiMqtt,
+    SiPhp,
+    SiProteus,
+    SiPython,
+    SiSelenium,
+    SiSpringboot,
+    SiTypescript,
+    SiVercel,
+    SiVim,
+} from "react-icons/si";
+import { TbBrandCSharp } from "react-icons/tb";
+
 export const frontend = [
     {
         name: "HTML",
-        details: "",
-        icons: "<FaHtml5 />",
+        icon: <SiHtml5 size={20} />,
+        details: [],
     },
     {
         name: "CSS",
-        details: "Tailwind CSS, daisyUI, Shadcn, Material UI, Bootstrap",
+        icon: <SiCss3 size={20} />,
+        details: [
+            "Tailwind CSS",
+            "daisyUI",
+            "Shadcn",
+            "Material UI",
+            "Bootstrap",
+        ],
     },
     {
-        name: "JavaScript / Typescript (beginner)",
-        details:
-            "React, Next.js, Vue.js, Nuxt, React Native, jQuery, Three.js, WebGL, Phaser",
+        name: "JavaScript / Typescript",
+        icon: (
+            <>
+                <SiJavascript size={20} />
+                <SiTypescript size={20} />
+            </>
+        ),
+        details: [
+            "React",
+            "Next.js",
+            "Vue.js",
+            "Nuxt",
+            "React Native",
+            "jQuery",
+            "Three.js",
+            "WebGL",
+        ],
     },
     {
         name: "Spring",
-        details: "",
+        icon: <SiSpringboot size={20} />,
+        details: [],
     },
 ];
 
 export const backend = [
     {
         name: "Node.js",
-        details: "Express",
+        icon: <FaNodeJs size={20} />,
+        details: ["Express"],
     },
     {
         name: "PHP",
-        details: "Laravel",
+        icon: <SiPhp size={20} />,
+        details: ["Laravel"],
     },
 ];
 
 export const database = [
     {
         name: "SQL",
-        details: "MySQL, Microsoft SQL Server, SQLite, Oracle",
+        details: ["MySQL", "Microsoft SQL Server", "SQLite", "Oracle"],
     },
     {
         name: "NoSQL",
-        details: "MongoDB, Firebase",
+        details: ["MongoDB", "Firebase"],
     },
 ];
 
 export const mobile = [
     {
         name: "Dart",
-        details: "Flutter",
+        icon: <SiDart size={20} />,
+        details: ["Flutter"],
     },
     {
         name: "Kotlin",
-        details: "",
+        icon: <SiKotlin size={20} />,
+        details: [],
     },
 ];
 
 export const iot = [
     {
         name: "Proteus",
-        details: "",
+        icon: <SiProteus size={20} />,
+        details: [],
     },
     {
-        name: "Arduino Uno",
-        details: "",
+        name: "Arduino",
+        icon: <SiArduino size={20} />,
+        details: [],
     },
     {
         name: "ESP32",
-        details: "",
+        icon: <SiEspressif size={20} />,
+        details: [],
+    },
+    {
+        name: "MQTT",
+        icon: <SiMqtt size={20} />,
+        details: ["EMQX"],
     },
     {
         name: "LoRa",
-        details: "",
+        details: [],
     },
 ];
 
 export const desktop = [
     {
         name: "Python",
-        details: "",
+        icon: <SiPython size={20} />,
+        details: [],
     },
     {
         name: "Java",
-        details: "",
-    },
-    {
-        name: "Scratch",
-        details: "",
-    },
-    {
-        name: "C",
-        details: "",
-    },
-    {
-        name: "C++",
-        details: "",
+        icon: <FaJava size={20} />,
+        details: [],
     },
     {
         name: "C#",
-        details: "",
+        icon: <TbBrandCSharp size={20} />,
+        details: [],
     },
     {
-        name: "MATLAB",
-        details: "",
+        name: "C++",
+        icon: <SiCplusplus size={20} />,
+        details: [],
     },
     {
-        name: "Pascal",
-        details: "",
-    },
-    {
-        name: "Assembly 💀",
-        details: "",
+        name: "C",
+        details: [],
     },
 ];
 
 export const webtesting = [
     {
         name: "Selenium",
-        details: "",
-    },
-    {
-        name: "XPath",
-        details: "",
+        icon: <SiSelenium size={20} />,
+        details: [],
     },
 ];
 
 export const linux = [
     {
         name: "Bash / Shell",
-        details: "",
+        icon: <SiGnubash size={20} />,
+        details: [],
     },
     {
         name: "Vim",
-        details: "",
+        icon: <SiVim size={20} />,
+        details: [],
     },
     {
         name: "Ansible",
-        details: "",
+        icon: <SiAnsible size={20} />,
+        details: [],
     },
 ];
 
 export const other = [
     {
+        name: "Git",
+        icon: <SiGit size={20} />,
+        details: [],
+    },
+    {
+        name: "JWT (JSON Web Token)",
+        icon: <SiJsonwebtokens size={20} />,
+        details: [],
+    },
+    {
         name: "Word, Excel, Powerpoint, Access",
-        details: "",
+        icon: <FaMicrosoft size={20} />,
+        details: [],
     },
     {
         name: "Canva",
-        details: "",
+        icon: <SiCanva size={20} />,
+        details: [],
     },
     {
         name: "Figma",
-        details: "",
+        icon: <SiFigma size={20} />,
+        details: [],
     },
     {
-        name: "Packet Tracer",
-        details: "",
-    },
-    {
-        name: "Midtrans (Sandbox)",
-        details: "",
+        name: "Vercel",
+        icon: <SiVercel size={20} />,
+        details: [],
     },
 ];

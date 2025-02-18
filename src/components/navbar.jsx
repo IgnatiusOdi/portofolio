@@ -18,6 +18,12 @@ const Navbar = () => {
                 </li>
                 <li
                     className="navbar-item"
+                    onClick={() => window.location.replace("#achievement")}
+                >
+                    Achievement
+                </li>
+                <li
+                    className="navbar-item"
                     onClick={() =>
                         window.location.replace("#programming-technologies")
                     }

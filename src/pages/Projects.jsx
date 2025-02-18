@@ -14,13 +14,14 @@ const Projects = () => {
                         <li className="ms-4" key={p.title}>
                             <div className="timeline" />
                             <div className="muted">{p.year}</div>
-                            <div className="grid grid-cols-3 gap-2">
+                            <div className="grid grid-cols-4 gap-4">
                                 {p.list_project
                                     .map((project) => (
                                         <>
                                             <a
                                                 href={project.github}
-                                                class="block max-w-xs p-6 border rounded-lg bg-gray-800 border-gray-700 hover:bg-gray-700"
+                                                target="_blank"
+                                                class="block max-w-auto p-4 border rounded-lg bg-gray-800 border-gray-700 hover:bg-gray-700"
                                             >
                                                 <div className="title">
                                                     {project.title}
@@ -35,7 +36,8 @@ const Projects = () => {
                                     .reverse()}
                             </div>
                         </li>
-                    ))}
+                    ))
+                    .reverse()}
             </ol>
         </div>
     );

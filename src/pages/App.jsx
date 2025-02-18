@@ -20,6 +20,21 @@ const App = () => {
                     data={work_experience}
                     id={"work-experience"}
                 />
+                <h1 id="achievement">Achievement</h1>
+                <ul className="plus">
+                    <li>
+                        <a href="https://drive.google.com/file/d/1dMYwq6rJK0v6XXodEUA4QtXduaU8pnzl/view" target="_blank">
+                            4th Place in Competition TechConnext Sandbox 2023
+                            (UI/UX Design for A Team Collaboration Tool for
+                            Day-to-Day Project Management)
+                        </a>
+                    </li>
+                    <li>Red Hat Certified Engineer (RHCE)</li>
+                    <li>
+                        Red Hat Certified Specialist in Ansible Automation
+                        (RHCSA)
+                    </li>
+                </ul>
                 <ProgrammingTechnologies id={"programming-technologies"} />
                 <Experience
                     title={"Organization Experience"}

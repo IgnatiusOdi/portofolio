@@ -23,6 +23,9 @@ body {
     ul {
         @apply list-disc px-8;
     }
+    a {
+        @apply hover:underline;
+    }
     .card-template {
         @apply container mx-auto max-w-2xl p-8 m-4 rounded-lg shadow-3xl shadow-gray-400 backdrop-brightness-80;
     }
@@ -37,6 +40,9 @@ body {
     }
     .navbar-item {
         @apply text-xl text-gray-400 transition-colors cursor-pointer hover:text-3xl hover:text-white hover:font-semibold hover:underline;
+    }
+    .plus {
+        @apply list-['+'] py-2;
     }
 }
 

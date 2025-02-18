@@ -18,31 +18,22 @@ const ProgrammingTechnologies = (props) => {
             <div className="grid grid-cols-3 gap-8">
                 <PartProgrammingTechnologies
                     title={"Frontend"}
-                    details={frontend}
+                    data={frontend}
                 />
-                <PartProgrammingTechnologies
-                    title={"Backend"}
-                    details={backend}
-                />
+                <PartProgrammingTechnologies title={"Backend"} data={backend} />
                 <PartProgrammingTechnologies
                     title={"Database"}
-                    details={database}
+                    data={database}
                 />
-                <PartProgrammingTechnologies
-                    title={"Mobile"}
-                    details={mobile}
-                />
-                <PartProgrammingTechnologies title={"IoT"} details={iot} />
-                <PartProgrammingTechnologies
-                    title={"Desktop"}
-                    details={desktop}
-                />
+                <PartProgrammingTechnologies title={"Mobile"} data={mobile} />
+                <PartProgrammingTechnologies title={"IoT"} data={iot} />
+                <PartProgrammingTechnologies title={"Desktop"} data={desktop} />
                 <PartProgrammingTechnologies
                     title={"Web Testing"}
-                    details={webtesting}
+                    data={webtesting}
                 />
-                <PartProgrammingTechnologies title={"Linux"} details={linux} />
-                <PartProgrammingTechnologies title={"Other"} details={other} />
+                <PartProgrammingTechnologies title={"Linux"} data={linux} />
+                <PartProgrammingTechnologies title={"Other"} data={other} />
             </div>
         </>
     );
