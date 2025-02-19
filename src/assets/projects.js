@@ -16,7 +16,6 @@ export const projects = [
                 language: "C++",
                 github: "https://github.com/IgnatiusOdi/rockgames-cpp",
             },
-
             {
                 title: "praktikum-itp-m1",
                 description: "Practical Assessment ITP M1",
@@ -79,7 +78,182 @@ export const projects = [
         year: 2021,
         list_project: [
             {
-                title: "ProyekPW",
+                title: "praktikum-basdat-m1",
+                description: "Practical Assessment BASDAT M1",
+                language: "",
+                github: "https://github.com/IgnatiusOdi/praktikum-basdat-m1",
+            },
+            {
+                title: "praktikum-basdat-m2",
+                description: "Practical Assessment BASDAT M2",
+                language: "",
+                github: "https://github.com/IgnatiusOdi/praktikum-basdat-m2",
+            },
+            {
+                title: "praktikum-basdat-m3",
+                description: "Practical Assessment BASDAT M3",
+                language: "",
+                github: "https://github.com/IgnatiusOdi/praktikum-basdat-m3",
+            },
+            {
+                title: "praktikum-basdat-m4",
+                description: "Practical Assessment BASDAT M4",
+                language: "SQL",
+                github: "https://github.com/IgnatiusOdi/praktikum-basdat-m4",
+            },
+            {
+                title: "praktikum-basdat-m5",
+                description: "Practical Assessment BASDAT M5",
+                language: "SQL",
+                github: "https://github.com/IgnatiusOdi/praktikum-basdat-m5",
+            },
+            {
+                title: "praktikum-basdat-m6",
+                description: "Practical Assessment BASDAT M6",
+                language: "SQL",
+                github: "https://github.com/IgnatiusOdi/praktikum-basdat-m6",
+            },
+            {
+                title: "praktikum-basdat-m7",
+                description: "Practical Assessment BASDAT M7",
+                language: "",
+                github: "https://github.com/IgnatiusOdi/praktikum-basdat-m7",
+            },
+            {
+                title: "praktikum-pbo-m1",
+                description: "Practical Assessment PBO M1",
+                language: "Java",
+                github: "https://github.com/IgnatiusOdi/praktikum-pbo-m1",
+            },
+            {
+                title: "praktikum-pbo-m2",
+                description: "Practical Assessment PBO M2",
+                language: "Java",
+                github: "https://github.com/IgnatiusOdi/praktikum-pbo-m2",
+            },
+            {
+                title: "praktikum-pbo-m3",
+                description: "Practical Assessment PBO M3",
+                language: "Java",
+                github: "https://github.com/IgnatiusOdi/praktikum-pbo-m3",
+            },
+            {
+                title: "praktikum-pbo-m4",
+                description: "Practical Assessment PBO M4",
+                language: "Java",
+                github: "https://github.com/IgnatiusOdi/praktikum-pbo-m4",
+            },
+            {
+                title: "praktikum-pbo-m5",
+                description: "Practical Assessment PBO M5",
+                language: "Java",
+                github: "https://github.com/IgnatiusOdi/praktikum-pbo-m5",
+            },
+            {
+                title: "praktikum-pbo-m6",
+                description: "Practical Assessment PBO M6",
+                language: "Java",
+                github: "https://github.com/IgnatiusOdi/praktikum-pbo-m6",
+            },
+            {
+                title: "praktikum-pbo-m7",
+                description: "Practical Assessment PBO M7",
+                language: "Java",
+                github: "https://github.com/IgnatiusOdi/praktikum-pbo-m7",
+            },
+            {
+                title: "SlayTheSpireLike",
+                description:
+                    "Final Assessment Object Oriented Programming (PBO) Assistance creates a game",
+                language: "Java",
+                github: "https://github.com/IgnatiusOdi/SlayTheSpireLike",
+            },
+            {
+                title: "praktikum-pv-m1",
+                description: "Practical Assessment PV M1",
+                language: "C#",
+                github: "https://github.com/IgnatiusOdi/praktikum-pv-m1",
+            },
+            {
+                title: "praktikum-pv-m2",
+                description: "Practical Assessment PV M2",
+                language: "C#",
+                github: "https://github.com/IgnatiusOdi/praktikum-pv-m2",
+            },
+            {
+                title: "praktikum-pv-m3",
+                description: "Practical Assessment PV M3",
+                language: "C#",
+                github: "https://github.com/IgnatiusOdi/praktikum-pv-m3",
+            },
+            {
+                title: "praktikum-pv-m4",
+                description: "Practical Assessment PV M4",
+                language: "C#",
+                github: "https://github.com/IgnatiusOdi/praktikum-pv-m4",
+            },
+            {
+                title: "praktikum-pv-m5",
+                description: "Practical Assessment PV M5",
+                language: "C#",
+                github: "https://github.com/IgnatiusOdi/praktikum-pv-m5",
+            },
+            {
+                title: "praktikum-pv-m6",
+                description: "Practical Assessment PV M6",
+                language: "C#",
+                github: "https://github.com/IgnatiusOdi/praktikum-pv-m6",
+            },
+            {
+                title: "praktikum-pv-m7",
+                description: "Practical Assessment PV M7",
+                language: "C#",
+                github: "https://github.com/IgnatiusOdi/praktikum-pv-m7",
+            },
+            {
+                title: "praktikum-pw-m1",
+                description: "Practical Assessment PW M1",
+                language: "HTML, CSS",
+                github: "https://github.com/IgnatiusOdi/praktikum-pw-m1",
+            },
+            {
+                title: "praktikum-pw-m2",
+                description: "Practical Assessment PW M2",
+                language: "HTML, JS",
+                github: "https://github.com/IgnatiusOdi/praktikum-pw-m2",
+            },
+            {
+                title: "praktikum-pw-m3",
+                description: "Practical Assessment PW M3",
+                language: "HTML, JS, jQuery",
+                github: "https://github.com/IgnatiusOdi/praktikum-pw-m3",
+            },
+            {
+                title: "praktikum-pw-m4",
+                description: "Practical Assessment PW M4",
+                language: "PHP",
+                github: "https://github.com/IgnatiusOdi/praktikum-pw-m4",
+            },
+            {
+                title: "praktikum-pw-m5",
+                description: "Practical Assessment PW M5",
+                language: "PHP",
+                github: "https://github.com/IgnatiusOdi/praktikum-pw-m5",
+            },
+            {
+                title: "praktikum-pw-m6",
+                description: "Practical Assessment PW M6",
+                language: "PHP, CSS, MySQL",
+                github: "https://github.com/IgnatiusOdi/praktikum-pw-m6",
+            },
+            {
+                title: "praktikum-pw-m7",
+                description: "Practical Assessment PW M7",
+                language: "PHP, CSS, jQuery, MySQL",
+                github: "https://github.com/IgnatiusOdi/praktikum-pw-m7",
+            },
+            {
+                title: "BadmintonKuy",
                 description:
                     "Final Assignment Web Programming (PW) creates website for transaction",
                 language:
@@ -92,9 +266,58 @@ export const projects = [
         year: 2022,
         list_project: [
             {
-                title: "Project-GrafKom",
+                title: "praktikum-pcs-m1",
+                description: "Practical Assessment PCS M1",
+                language: "C#",
+                github: "https://github.com/IgnatiusOdi/praktikum-pcs-m1",
+            },
+            {
+                title: "praktikum-pcs-m2",
+                description: "Practical Assessment PCS M2",
+                language: "C#",
+                github: "https://github.com/IgnatiusOdi/praktikum-pcs-m2",
+            },
+            {
+                title: "praktikum-pcs-m3",
+                description: "Practical Assessment PCS M3",
+                language: "C#",
+                github: "https://github.com/IgnatiusOdi/praktikum-pcs-m3",
+            },
+            {
+                title: "praktikum-pcs-m4",
+                description: "Practical Assessment PCS M4",
+                language: "C#",
+                github: "https://github.com/IgnatiusOdi/praktikum-pcs-m4",
+            },
+            {
+                title: "praktikum-pcs-m5",
+                description: "Practical Assessment PCS M5",
+                language: "C#",
+                github: "https://github.com/IgnatiusOdi/praktikum-pcs-m5",
+            },
+            {
+                title: "praktikum-pcs-m6",
+                description: "Practical Assessment PCS M6",
+                language: "C#",
+                github: "https://github.com/IgnatiusOdi/praktikum-pcs-m6",
+            },
+            {
+                title: "praktikum-pcs-m7",
+                description: "Practical Assessment PCS M7",
+                language: "C#",
+                github: "https://github.com/IgnatiusOdi/praktikum-pcs-m7",
+            },
+            {
+                title: "Hotel Reservation Desktop Application",
                 description:
-                    "Computer Graphics Project creates 3D dynamic scenery",
+                    "Final Assessment Client Server Programming (PCS) creates transactional system for hotel",
+                language: "C#, MySQL",
+                github: "https://github.com/aaronlinggo/Project-PCS",
+            },
+            {
+                title: "Pirate Ship Diorama",
+                description:
+                    "Computer Graphics Project creates diorama of Pirate Ship",
                 language: "HTML, Three.js + Vite",
                 github: "https://github.com/IgnatiusOdi/Project-GrafKom",
             },
@@ -171,6 +394,41 @@ export const projects = [
                 language: "Laravel, CSS (daisyUI), MySQL",
                 github: "https://github.com/IgnatiusOdi/tugas_praktikum_fpw",
             },
+            {
+                title: "onitama-AI",
+                description:
+                    "Final Assessment Artificial Intelligence (AI) creates AI for Onitama Board Game",
+                language: "Kotlin",
+                github: "https://github.com/IgnatiusOdi/onitama-AI",
+            },
+            {
+                title: "Machine Learning Google Colab",
+                description:
+                    "Wine Recognition / Classification, PCA, Titanic, Letter Prediction and Data Cleaning, Numerical and Categorical Classification, MLP Classifier with One Hot Encoder, MLP Classifier with Fish Dataset, Scikit Wine",
+                language: "Python",
+                github: "#",
+            },
+            {
+                title: "catering-munch-backend",
+                description:
+                    "Final Assessment Software Development Project (SDP) and Web Programming Framework (FPW) creates application / website for catering service",
+                language: "Laravel, MySQL",
+                github: "https://github.com/CBEngineer9/catering-munch-backend",
+            },
+            {
+                title: "catering-munch-frontend",
+                description:
+                    "Final Assessment Software Development Project (SDP) and Web Programming Framework (FPW) creates application / website for catering service",
+                language: "Vue.js + Vite, TailwindCSS",
+                github: "https://github.com/Kosmasu/catering-munch-frontend",
+            },
+            {
+                title: "munch-mobile",
+                description:
+                    "Final Assessment Mobile Device Programming (MDP) creates mobile application for catering service",
+                language: "Kotlin",
+                github: "https://github.com/Kosmasu/munch-mobile",
+            },
         ],
     },
     {
@@ -237,11 +495,53 @@ export const projects = [
                 github: "https://github.com/IgnatiusOdi/aplikasi_flutter_pemula",
             },
             {
+                title: "tokopi",
+                description:
+                    "Final Assessment Enterprise Java creates website for ordering coffee using Spring Boot",
+                language: "Spring Boot, MySQL",
+                github: "https://github.com/sirMasterEgg/tokopi",
+            },
+            {
+                title: "Selenium-Project",
+                description:
+                    "Final Assessment Software Testing creates Web Automation using Java",
+                language: "Java",
+                github: "https://github.com/SamGun-Official/Selenium-Project",
+            },
+            {
+                title: "Sistem-Penjadwalan",
+                description:
+                    "Internship at PT Adiputro Wirasejati creates distributed database for PDDikti system",
+                language: "Laravel, CSS (TailwindCSS), Oracle",
+                github: "https://github.com/IgnatiusOdi/Sistem-Penjadwalan",
+            },
+            {
+                title: "song-muncher",
+                description:
+                    "Final Assessment Service Oriented Architecture (SOA) creates REST API for 3rd party API Spotify",
+                language: "Express, MySQL",
+                github: "https://github.com/Kosmasu/song-muncher",
+            },
+            {
                 title: "LaPoRAn",
                 description:
-                    "Embedded Systems Projects - Track Your Current Position",
-                language: "C++ (Arduino IDE)",
+                    "Final Assessment Embedded Systems designs a microcontroller that can tracks current position",
+                language: "C++ (Arduino IDE), MQTT",
                 github: "https://github.com/IgnatiusOdi/LaPoRAn",
+            },
+            {
+                title: "kopilab",
+                description:
+                    "Final Assessment Multi-platform Mobile Programming creates mobile application for ordering coffee",
+                language: "Flutter, Firebase",
+                github: "https://github.com/cheryle-18/kopilab",
+            },
+            {
+                title: "PDDikti-DD",
+                description:
+                    "Final Assessment Distributed Database (DD) creates distributed database for PDDikti system",
+                language: "Laravel, CSS (TailwindCSS), Oracle",
+                github: "https://github.com/IgnatiusOdi/PDDikti-DD",
             },
         ],
     },

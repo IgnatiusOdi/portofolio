@@ -14,8 +14,8 @@ import PartProgrammingTechnologies from "./part-programming-technologies";
 const ProgrammingTechnologies = (props) => {
     return (
         <>
-            <h1 id={props.id}>All the Programming Technologies I have used</h1>
-            <div className="grid grid-cols-3 gap-8">
+            <h1 id={props.id}>Programming Technologies I've used</h1>
+            <div className="grid grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8">
                 <PartProgrammingTechnologies
                     title={"Frontend"}
                     data={frontend}

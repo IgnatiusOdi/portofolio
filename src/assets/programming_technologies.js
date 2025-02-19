@@ -2,6 +2,7 @@ import { FaJava, FaMicrosoft, FaNodeJs } from "react-icons/fa";
 import {
     SiAnsible,
     SiArduino,
+    SiAxios,
     SiCanva,
     SiCplusplus,
     SiCss3,
@@ -63,7 +64,7 @@ export const frontend = [
         ],
     },
     {
-        name: "Spring",
+        name: "Spring Boot",
         icon: <SiSpringboot size={20} />,
         details: [],
     },
@@ -195,6 +196,11 @@ export const other = [
     {
         name: "JWT (JSON Web Token)",
         icon: <SiJsonwebtokens size={20} />,
+        details: [],
+    },
+    {
+        name: "Axios",
+        icon: <SiAxios size={20} />,
         details: [],
     },
     {

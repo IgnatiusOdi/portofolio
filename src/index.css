@@ -26,9 +26,6 @@ body {
     a {
         @apply hover:underline;
     }
-    .card-template {
-        @apply container mx-auto max-w-2xl p-8 m-4 rounded-lg shadow-3xl shadow-gray-400 backdrop-brightness-80;
-    }
     .timeline {
         @apply absolute -start-1.5 mt-1.5 w-3 h-3 rounded-full border bg-gray-700;
     }

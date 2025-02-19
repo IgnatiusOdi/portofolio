@@ -1,16 +1,17 @@
 import { Link } from "react-router";
 import { organization_experience } from "@assets/organization_experience";
 import { work_experience } from "@assets/work_experience";
+import ExperienceCertificate from "@components/achievement-certificate";
 import Experience from "@components/experience";
 import Navbar from "@components/navbar";
-import ProgrammingTechnologies from "@components/programming-technologies";
 import Profile from "@components/profile";
+import ProgrammingTechnologies from "@components/programming-technologies";
 
 const App = () => {
     return (
         <>
             <Navbar />
-            <div className="container mx-auto max-w-2xl p-8 m-4 rounded-lg shadow-3xl shadow-gray-400 backdrop-brightness-80">
+            <div className="container mx-auto max-w-lg xl:max-w-3xl 2xl:max-w-6xl p-8 m-8 mr-20 rounded-lg shadow-3xl shadow-gray-400 backdrop-brightness-80">
                 <Profile />
                 <h1 id="projects">
                     <Link to="/projects">Projects &gt;</Link>
@@ -20,21 +21,10 @@ const App = () => {
                     data={work_experience}
                     id={"work-experience"}
                 />
-                <h1 id="achievement">Achievement</h1>
-                <ul className="plus">
-                    <li>
-                        <a href="https://drive.google.com/file/d/1dMYwq6rJK0v6XXodEUA4QtXduaU8pnzl/view" target="_blank">
-                            4th Place in Competition TechConnext Sandbox 2023
-                            (UI/UX Design for A Team Collaboration Tool for
-                            Day-to-Day Project Management)
-                        </a>
-                    </li>
-                    <li>Red Hat Certified Engineer (RHCE)</li>
-                    <li>
-                        Red Hat Certified Specialist in Ansible Automation
-                        (RHCSA)
-                    </li>
-                </ul>
+                <ExperienceCertificate
+                    title={"Achievement & Certificate"}
+                    id={"achievement-certificate"}
+                />
                 <ProgrammingTechnologies id={"programming-technologies"} />
                 <Experience
                     title={"Organization Experience"}
