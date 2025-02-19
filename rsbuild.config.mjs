@@ -13,4 +13,7 @@ export default defineConfig({
             "@pages": "./src/pages",
         },
     },
+    output: {
+        assetPrefix: "/portofolio/",
+    },
 });
